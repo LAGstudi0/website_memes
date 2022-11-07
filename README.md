@@ -14,3 +14,6 @@ Sun 6 Nov:
 
 -------------------------------------------------
 
+Mon 7 Nov:
+	Today we have created the index file where you can find several links to different websites that will explain
+	different memes. We have created three different websites for three different memes.
