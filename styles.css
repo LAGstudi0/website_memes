@@ -1,0 +1,54 @@
+h1 {
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.head-title {
+    /* display: flex; */
+    padding: 70px 0;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid black;
+    text-align: center;
+}
+
+#intro  {
+    font-weight: bold;
+}
+
+h2  {
+    font-size: 28px;
+    margin: 200px;
+}
+
+#despedida  {
+    font-weight: bold;
+}
+
+html {
+    box-sizing: border-box;
+}
+* {
+    border: 5px solid red;
+}
+
+.homepage   {
+    text-align: center;
+}
+/* 
+#myVideo    {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content    {
+    position: fixed;
+} */

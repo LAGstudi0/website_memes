@@ -17,3 +17,15 @@ Sun 6 Nov:
 Mon 7 Nov:
 	Today we have created the index file where you can find several links to different websites that will explain
 	different memes. We have created three different websites for three different memes.
+
+-------------------------------------------------
+
+Wed 16 Nov:
+	Today we have applied css, we have tried to made it look nice but it was very hard with the current knowledge.
+	This commit is to save the progress on the testing done. The red line borders have been stablished to help me 
+	understand the layout of the website. My goal right now is to make the h1 "MEMES" background colour, to not 
+	fill the entire website, rather than just a lil bit and still be at the center. 
+	
+	I have also been testing with the possibility of adding a video to the background, but i would rather use 
+	animation to make the background more dynamic rather than having a static video as a background. In order
+	to execute that I need more knowledge in css animation and a little bit of javascript.
