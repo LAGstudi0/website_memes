@@ -25,7 +25,6 @@ Wed 16 Nov:
 	This commit is to save the progress on the testing done. The red line borders have been stablished to help me 
 	understand the layout of the website. My goal right now is to make the h1 "MEMES" background colour, to not 
 	fill the entire website, rather than just a lil bit and still be at the center. 
-	
 	I have also been testing with the possibility of adding a video to the background, but i would rather use 
 	animation to make the background more dynamic rather than having a static video as a background. In order
 	to execute that I need more knowledge in css animation and a little bit of javascript.
