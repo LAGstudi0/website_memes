@@ -29,3 +29,9 @@ Wed 16 Nov:
 	I have also been testing with the possibility of adding a video to the background, but i would rather use 
 	animation to make the background more dynamic rather than having a static video as a background. In order
 	to execute that I need more knowledge in css animation and a little bit of javascript.
+
+------------------------------------------------
+
+Fri 25 Nov:
+	There has been changes the past few days with the addition of the CSS and the website has changed. I still
+	need to integrate the use of the flexbox, since its quite useful.
