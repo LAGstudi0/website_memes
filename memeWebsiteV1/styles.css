@@ -1,0 +1,90 @@
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.head-title {
+    /* display: flex; */
+    padding: 70px 0;
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 10px solid black; */
+    text-align: center;
+}
+
+#intro  {
+    font-weight: bold;
+}
+
+h2  {
+    font-size: 28px;
+    /* margin: 200px; */
+}
+
+#despedida  {
+    font-weight: bold;
+}
+
+html {
+    box-sizing: border-box;
+}
+/* * {
+    border: 5px solid red;
+} */
+
+.homepage   {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: yellow;
+}
+
+.pepeGif img    {
+    border-radius: 20px;
+    width: 30%;
+    height: auto;
+}
+
+
+/* Intentando hacer que cambie de imagen cuando se pasa el cursos */
+
+/* .pepeGif img:hover{
+    background-image: url("images/pepeGif2.gif") no-repeat;
+} */
+
+/* .pepeGif    {
+    width: 300px;
+    height: 300px;
+    /* display: inline-block; */
+    /* background: url("images/pepeGif1.gif") no-repeat;
+}
+
+.pepeGif:hover  {
+    background: url("images/pepeGif2.gif") no-repeat;
+
+} */ 
+
+
+/* Intentando poner video de fondo */
+
+
+/* 
+#myVideo    {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content    {
+    position: fixed;
+} */

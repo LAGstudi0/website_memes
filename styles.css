@@ -1,90 +1,263 @@
-h1 {
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: auto;
+/* this is some magical font-importing.  
+you'll learn about it later. */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-
+*   {
+    border: 3px solid red;
+}
+body {
+  margin: 0;
+  background: #eee;
+  font-family: Besley, serif;
 }
 
-.head-title {
-    /* display: flex; */
-    padding: 70px 0;
-    /* margin: auto; */
-    margin-left: auto;
-    margin-right: auto;
-    /* border: 10px solid black; */
-    text-align: center;
+.header {
+    background-color: #1f2937;
+  /* border-bottom: 1px solid #ddd; */
+  /* box-shadow: 0 0 8px rgba(0,0,0,.1); */
 }
 
-#intro  {
-    font-weight: bold;
+.profile-image {
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
 }
 
-h2  {
-    font-size: 28px;
-    /* margin: 200px; */
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
 }
 
-#despedida  {
-    font-weight: bold;
+button {
+  border: none;
+  border-radius: 8px;
+  background: rebeccapurple;
+  color: white;
+  padding: 8px 24px;
 }
 
-html {
-    box-sizing: border-box;
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
 }
-/* * {
-    border: 5px solid red;
-} */
 
-.homepage   {
-    text-align: center;
+ul {
+  list-style-type: none;
+}
+
+.header {
+  display: flex;
+}
+.part1  {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-start;
+  padding-left: 20px;
+
+}
+.pepe-logo  {
+    height: 100px;
+    width: 100px;
+}
+
+.part2  {
+  display: flex;
+  /* flex: 0 1 auto; */
+  /* justify-content: flex-end; */
+  /* align-items: center; */
+
+}
+ul  {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+
+.content1    {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.menu-content   {
+    background-color: grey;
+}
+
+.topMenu-link  {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+a{
+    display: flex;
+    white-space: nowrap;
+}
+
+.section1   {
+    gap: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    
+}
+
+.section1-top   {
     display: flex;
     flex-direction: column;
+
 }
 
-body {
-    background-color: yellow;
+.section1-top h1    {
+    color: white;
+    width: 400px;
+
 }
 
-.pepeGif img    {
+.section1-top p {
+    color: white;
+    width: 400px;
+}
+
+.section1-bot   {
+    display: flex;
+    flex: 0 1 auto;
+}
+
+.pepe-thinking  {
+    display: flex;
+    width: 360px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.content1    {
+    justify-content: center;
+    padding: 24px;
+}
+
+button  {
+    padding: 8px 16px;
+    border-radius: 8px;  
+}
+
+button.sign-up    {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+.theTeam    {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.workers img    {
+    height: 100px;
+    width: 100px;
     border-radius: 20px;
-    width: 30%;
-    height: auto;
+
 }
 
-
-/* Intentando hacer que cambie de imagen cuando se pasa el cursos */
-
-/* .pepeGif img:hover{
-    background-image: url("images/pepeGif2.gif") no-repeat;
-} */
-
-/* .pepeGif    {
-    width: 300px;
-    height: 300px;
-    /* display: inline-block; */
-    /* background: url("images/pepeGif1.gif") no-repeat;
+.workers    {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
 }
 
-.pepeGif:hover  {
-    background: url("images/pepeGif2.gif") no-repeat;
-
-} */ 
-
-
-/* Intentando poner video de fondo */
-
-
-/* 
-#myVideo    {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+.text   {
+    text-align: center;
+    width: 200px;
 }
 
-.content    {
-    position: fixed;
-} */
+.info   {
+  max-width: 200px;  
+}
+
+.content2   {
+    text-align: center;
+}
+.content3   {
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote  {
+    width: 400px;
+    padding: 80px;
+}
+
+.quoteAuthor    {
+    margin-left: 250px;
+    font-weight: 1000;
+}
+
+.content4   {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-panel {
+    padding: 27px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+.blue-text  {
+    padding-right: 90px;
+
+}
+
+.blue-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #f9faf8;
+}
+
+.blue-parragrp  {
+    color: #E5E7EB;
+    font-size: 10px;
+}
+
+.blue-button    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-sign-up   {
+    background-color: #3882F6;
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-text    {
+    color: #E5E7EB;
+}
+
